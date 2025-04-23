@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    nav{
+        font-family: "Inter", sans-serif;
+    }
+    .hero {
+        position: relative;
+        background-image: url('assets/hero.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .hero .title,
+    .hero .content {
+        display:flex;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        color: white;
+    }
+    .paralax{
+        position:relative;
+        background-image: url('assets/paralax.jpeg');
+        background-size:cover
+    }
+    .paralax::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    .testimonial-container {
+        transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        opacity: 0; /* Start fully transparent */
+    }
+    
+    .testimonial-container.active {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Original position */
+    }
+    
+    .testimonial-container.inactive {
+        transform: translateY(-20px); /* Slide slightly upwards */
+    }
+}
