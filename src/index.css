@@ -34,7 +34,7 @@
     }
     .paralax{
         position:relative;
-        background-image: url('/assets/paralax.jpeg');
+        background-image: url('assets/paralax.jpeg');
         background-size:cover
     }
     .paralax::before{
