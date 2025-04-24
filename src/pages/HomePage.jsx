@@ -83,7 +83,7 @@ const HomePage = () => {
                     </div>
                     {/* Image Section */}
                     <div className="w-full md:w-1/2 -mt-14" data-aos='fade-left' data-aos-duration="1500">
-                        <img src="src/assets/hncheeseLogo.png" alt="About Us" className="md:ms-auto rounded-lg md:mt-20" />
+                        <img src="/assets/hncheeseLogo.png" alt="About Us" className="md:ms-auto rounded-lg md:mt-20" />
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ const HomePage = () => {
                         <div className="card mx-auto">
                             <div className="overflow-hidden w-72 h-64 md:w-96 md:h-80 rounded-md mx-auto">
                                 <img 
-                                    src="src/assets/burnt2.jpeg" 
+                                    src="/assets/burnt2.jpeg" 
                                     alt="Product 1" 
                                     className="rounded-md object-cover w-full h-full transition-transform duration-500 hover:scale-110"
                                 />
@@ -134,7 +134,7 @@ const HomePage = () => {
                         <div className="card md:mx-8 mx-auto">
                             <div className="overflow-hidden w-72 h-64 md:w-96 md:h-80 rounded-md mx-auto">
                                 <img 
-                                    src="src/assets/brownies3.jpeg" 
+                                    src="/assets/brownies3.jpeg" 
                                     alt="Product 1" 
                                     className="rounded-md object-cover w-full h-full transition-transform duration-500 hover:scale-110"
                                 />
@@ -147,7 +147,7 @@ const HomePage = () => {
                         <div className="card mx-auto">
                             <div className="overflow-hidden w-72 h-64 md:w-96 md:h-80 rounded-md mx-auto">
                                 <img 
-                                    src="src/assets/browbite2.jpeg" 
+                                    src="/assets/browbite2.jpeg" 
                                     alt="Product 1" 
                                     className="rounded-md object-cover w-full h-full transition-transform duration-500 hover:scale-110"
                                 />
@@ -162,7 +162,7 @@ const HomePage = () => {
                         <div className="card mx-auto">
                             <div className="overflow-hidden w-72 h-64 md:w-96 md:h-80 rounded-md mx-auto">
                                 <img 
-                                    src="src/assets/normal1.jpg" 
+                                    src="/assets/normal1.jpg" 
                                     alt="Product 1" 
                                     className="rounded-md object-cover w-full h-full transition-transform duration-500 hover:scale-110"
                                 />
@@ -175,7 +175,7 @@ const HomePage = () => {
                         <div className="card md:mx-8 mx-auto">
                             <div className="overflow-hidden w-72 h-64 md:w-96 md:h-80 rounded-md mx-auto">
                                 <img 
-                                    src="src/assets/mini1.jpeg" 
+                                    src="/assets/mini1.jpeg" 
                                     alt="Product 1" 
                                     className="rounded-md object-cover w-full h-full transition-transform duration-500 hover:scale-110"
                                 />
@@ -188,7 +188,7 @@ const HomePage = () => {
                         <div className="card mx-auto">
                             <div className="overflow-hidden w-72 h-64 md:w-96 md:h-80 rounded-md mx-auto">
                                 <img 
-                                    src="src/assets/mix1.jpeg" 
+                                    src="/assets/mix1.jpeg" 
                                     alt="Product 1" 
                                     className="rounded-md object-cover w-full h-full transition-transform duration-500 hover:scale-110"
                                 />
@@ -244,23 +244,23 @@ const HomePage = () => {
             <div className="content">
                 <div className="columns gap-1 md:gap-1 sm:columns-2 md:columns-5 [&>img:not(:first-child)]:mt-0 md:[&>img:not(:first-child)]:mt-1 md:mx-28 mx-20">
                     <div className="overflow-hidden" data-aos='zoom-in' data-aos-duration="2000">
-                        <img src="src/assets/coklat.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                        <img src="/assets/coklat.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
                         <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Chocolate</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
-                        <img src="src/assets/oreo.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                        <img src="/assets/oreo.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
                         <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic ">Oreo</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
-                        <img src="src/assets/tiramisu.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                        <img src="/assets/tiramisu.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
                         <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Tiramisu</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
-                        <img src="src/assets/matcha.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                        <img src="/assets/matcha.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
                         <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Matcha</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
-                        <img src="src/assets/redvelvet.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                        <img src="/assets/redvelvet.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
                         <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Red Velvet</p>
                     </div>
                 </div>
@@ -277,7 +277,7 @@ const HomePage = () => {
                 <div className="flex-shrink-0 snap-start w-full md:w-1/3 text-center">
                     <div className="mb-6 flex justify-center">
                         <img
-                            src="src/assets/1.png"
+                            src="/assets/1.png"
                             className="w-24 rounded-full shadow-lg dark:shadow-black/30"
                             alt="Anna Morian"
                         />
@@ -291,7 +291,7 @@ const HomePage = () => {
                 <div className="flex-shrink-0 snap-start w-full md:w-1/3 text-center">
                     <div className="mb-6 flex justify-center">
                         <img
-                            src="src/assets/2.png"
+                            src="/assets/2.png"
                             className="w-24 rounded-full shadow-lg dark:shadow-black/30"
                             alt="Teresa May"
                         />
@@ -305,7 +305,7 @@ const HomePage = () => {
                 <div className="flex-shrink-0 snap-start md:mt-2 w-full md:w-1/3 text-center">
                     <div className="mb-6 flex justify-center">
                         <img
-                             src="src/assets/3.png"
+                             src="/assets/3.png"
                             className="w-24 rounded-full shadow-lg dark:shadow-black/30"
                             alt="Teresa May"
                         />
@@ -318,7 +318,7 @@ const HomePage = () => {
                 <div className="flex-shrink-0 md:mt-2 snap-start w-full md:w-1/3 text-center">
                     <div className="mb-6 flex justify-center">
                         <img
-                             src="src/assets/4.png"
+                             src="/assets/4.png"
                             className="w-24 rounded-full shadow-lg dark:shadow-black/30"
                             alt="Teresa May"
                         />
@@ -343,40 +343,40 @@ const HomePage = () => {
             </div>
             <div className="columns gap-5 md:gap-1 sm:columns-2 md:columns-4 [&>img:not(:first-child)]:mt-1 md:[&>img:not(:first-child)]:mt-1 mt-10" data-aos='fade-up' data-aos-duration="1000">
                 <div className="overflow-hidden">
-                    <img src="src/assets/brownies1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/brownies1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/brownies3.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/brownies3.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/burnt2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110 md:h-[465px] md:w-full"/>
+                    <img src="/assets/burnt2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110 md:h-[465px] md:w-full"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/mini1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/mini1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/brownies2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/brownies2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/mini3.jpeg" alt="" className="transition-transform duration-500 hover:scale-110 md:h-[515px]"/>
+                    <img src="/assets/mini3.jpeg" alt="" className="transition-transform duration-500 hover:scale-110 md:h-[515px]"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/burnt3.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/burnt3.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/burnt4.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/burnt4.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/browbite1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/browbite1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/browbite2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/browbite2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/burnt1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
+                    <img src="/assets/burnt1.jpeg" alt="" className="transition-transform duration-500 hover:scale-110"/>
                 </div>
                 <div className="overflow-hidden mt-1">
-                    <img src="src/assets/mini2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110 md:h-[490px]"/>
+                    <img src="/assets/mini2.jpeg" alt="" className="transition-transform duration-500 hover:scale-110 md:h-[490px]"/>
                 </div>
             </div>
         </div>
