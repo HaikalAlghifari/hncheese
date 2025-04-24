@@ -34,7 +34,7 @@ const Navbar = () => {
     }
   }, [lastScrollY])
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <nav className={`
             fixed top-0 left-0 w-full z-50 
             transition-all duration-500
@@ -42,7 +42,7 @@ const Navbar = () => {
             ${isVisible ? 'translate-y-0' : '-translate-y-full'}
           `}
           >
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center text-3xl font-semibold whitespace-nowrap text-white  font-['badscript'] italic">H.N <span className='text-orange-500'>Cheese</span></span>
           </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
           </div>
 
           <div
-            className={`${isOpen ? 'opacity-100 max-h-[500px]' : 'opacity-0 max-h-0'} items-center justify-between w-full md:flex md:w-auto md:order-1 tansition-all duration-500 ease-in-out md:opacity-100 backdrop-blur-md text-center rounded-lg mt-2`}
+            className={`${isOpen ? 'opacity-100 max-h-[500px]' : 'opacity-0 max-h-0'} items-center justify-between w-full md:flex md:w-auto md:order-1 transition-all duration-500 ease-in-out md:opacity-100 backdrop-blur-md text-center rounded-lg mt-2`}
             id="navbar"
           >
             <ul className="flex flex-col font-regular p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">

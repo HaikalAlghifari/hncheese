@@ -56,7 +56,7 @@ const HomePage = () => {
     <div className="homePage" id='home'>
         {/* Hero */}
         <div className="hero md:min-h-screen h-[650px] md:pt-[23%] pt-[60%]">
-            <div className="title mb-4 md:mb-8 font-['badscript'] italic text-center px-10">
+            <div className="title mb-4 md:mb-8 font-playfair italic text-center px-10">
                 <h1 className='text-4xl md:text-7xl' data-aos='zoom-in' data-aos-duration="1000">Taste The Love In <span className='text-orange-500'>Every Bite</span></h1>
             </div>
             <div className="content font-['inter']">
@@ -69,7 +69,7 @@ const HomePage = () => {
                 <div className="flex flex-col md:flex-row items-center md:items-center gap-8">
                 {/* Title Section */}
                     <div className="w-full md:w-1/2 text-center md:text-left" data-aos='fade-right' data-aos-duration="1000">
-                        <h1 className="font-['BadScript'] italic text-4xl md:text-5xl">About <span className='text-orange-500'>H.N Cheese</span></h1>
+                        <h1 className="font-playfair italic text-4xl md:text-5xl">About <span className='text-orange-500'>H.N Cheese</span></h1>
                         <p className="italic mt-4 text-gray-600 text-[11px] md:text-sm font-['inter'] font-light">
                         H.N Cheese is a business engaged in the dessert sector, established since 2024 with a commitment to presenting a sweet taste that pampers every tongue. We always prioritize the quality of raw materials, from high-quality cheese to other supporting ingredients that are fresh and guaranteed quality.
                         <br /> <br />
@@ -92,7 +92,7 @@ const HomePage = () => {
         <div className="paralax bg-fixed bg-slate-500 h-96 flex items-center justify-center">
             <div className="flex flex-col md:flex-row md:justify-evenly text-white font-light text-center w-full z-10" data-aos='fade-up' data-aos-duration="2000">
                 <div className="project m-4">
-                    <p className='text-3xl md:text-7xl'><Counter id="project-counter" target="125+" duration={2000} /></p>
+                    <p className='text-3xl md:text-7xl'><Counter id="project-counter" target="800+" duration={2000} /></p>
                     <p className='text-sm md:text-md md:mt-3'>Complete Project</p>
                 </div>
                 <div className="trusted m-4">
@@ -104,7 +104,7 @@ const HomePage = () => {
                     <p className='text-sm md:text-md md:mt-3'>Years Experience</p>
                 </div>
                 <div className="professional m-4">
-                    <p className='text-3xl md:text-7xl'><Counter id="experts-counter" target="10" duration={1000} /></p>
+                    <p className='text-3xl md:text-7xl'><Counter id="experts-counter" target="5" duration={1000} /></p>
                     <p className='text-sm md:text-md md:mt-3'>Professional & Experts</p>
                 </div>
             </div>
@@ -113,8 +113,8 @@ const HomePage = () => {
         <div className="menu pt-10 md:mt-8" id='menu'>
             <div className="container mx-auto">
                 <div className="title" data-aos='fade-down' data-aos-duration="1000">
-                    <h1 className="font-['BadScript'] italic text-4xl md:text-5xl text-center">Our <span className='text-orange-500'>Menu</span></h1>
-                    <p className="italic mt-1 text-[18px] md:text-xl font-['BadScript'] font-bold text-center  ">Spesial Taste</p>
+                    <h1 className="font-playfair italic text-4xl md:text-5xl text-center">Our <span className='text-orange-500'>Menu</span></h1>
+                    <p className="italic mt-1 text-[18px] md:text-xl font-playfair font-bold text-center  ">Spesial Taste</p>
                 </div>
                 <div className="content mx-auto md:mt-5">
                     <div className="flex flex-wrap md:flex-nowrap text-center gap-4 p-4 md:p-8" data-aos='fade-up' data-aos-duration="1000">
@@ -127,8 +127,8 @@ const HomePage = () => {
                                 />
                             </div>
                             <div className="card-body">
-                                <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic">Burnt Cheesecake Brownies</h2>
-                                <p className="card-text font-['BadScript'] font-medium text-slate-800 italic">Size 20 x 10</p>
+                                <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic">Burnt Cheesecake Brownies</h2>
+                                <p className="card-text font-playfair font-medium text-slate-800 italic">Size 20 x 10</p>
                             </div>
                         </div>
                         <div className="card md:mx-8 mx-auto">
@@ -140,8 +140,8 @@ const HomePage = () => {
                                 />
                             </div>
                             <div className="card-body">
-                                <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic">Fugdy Brownies</h2>
-                                <p className="card-text font-['BadScript'] font-medium text-slate-800 italic">Size 20 x 10, - 20 x 20, - 20 x 25</p>
+                                <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic">Fugdy Brownies</h2>
+                                <p className="card-text font-playfair font-medium text-slate-800 italic">Size 20 x 10, - 20 x 20, - 20 x 25</p>
                             </div>
                         </div>
                         <div className="card mx-auto">
@@ -153,8 +153,8 @@ const HomePage = () => {
                                 />
                             </div>
                             <div className="card-body">
-                                <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic">Brownies Bites</h2>
-                                <p className="card-text font-['BadScript'] font-medium text-slate-800 italic">Size Normal</p>
+                                <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic">Brownies Bites</h2>
+                                <p className="card-text font-playfair font-medium text-slate-800 italic">Size Normal</p>
                             </div>
                         </div>
                     </div>
@@ -168,8 +168,8 @@ const HomePage = () => {
                                 />
                             </div>
                             <div className="card-body">
-                                <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic">Cheesecuit</h2>
-                                <p className="card-text font-['BadScript'] font-medium text-slate-800 italic">Size 300 ml</p>
+                                <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic">Cheesecuit</h2>
+                                <p className="card-text font-playfair font-medium text-slate-800 italic">Size 300 ml</p>
                             </div>
                         </div>
                         <div className="card md:mx-8 mx-auto">
@@ -181,8 +181,8 @@ const HomePage = () => {
                                 />
                             </div>
                             <div className="card-body">
-                                <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic">Cheesecuit Mini</h2>
-                                <p className="card-text font-['BadScript'] font-medium text-slate-800 italic">Size 200 ml</p>
+                                <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic">Cheesecuit Mini</h2>
+                                <p className="card-text font-playfair font-medium text-slate-800 italic">Size 200 ml</p>
                             </div>
                         </div>
                         <div className="card mx-auto">
@@ -194,8 +194,8 @@ const HomePage = () => {
                                 />
                             </div>
                             <div className="card-body">
-                                <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic">Cheesecuit Mix</h2>
-                                <p className="card-text font-['BadScript'] font-medium text-slate-800 italic">Size 300 ml</p>
+                                <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic">Cheesecuit Mix</h2>
+                                <p className="card-text font-playfair font-medium text-slate-800 italic">Size 300 ml</p>
                             </div>
                         </div>
                     </div>
@@ -205,32 +205,32 @@ const HomePage = () => {
         {/* Information */}
         <div className="information pt-10 h-full bg-slate-50" id='information'>
             <div className="title" data-aos='fade-right' data-aos-duration="1000">
-                <h1 className="font-['BadScript'] italic text-2xl md:text-4xl text-left md:mx-20 mx-6">
+                <h1 className="font-playfair italic text-2xl md:text-4xl text-left md:mx-20 mx-6">
                 What's That ?</h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-5 mt-10 md:mx-20 pb-24">
                 <div className="card mx-auto" data-aos='fade-up' data-aos-duration="1000">
                     <div className="card-body text-center w-80">
-                        <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic mb-2">Burnt Cheesecake Brownies</h2>
-                        <p className="card-text font-['BadScript'] font-medium text-slate-800 md:text-md ">The combination of grilled cheese from cream cheese and chocolate brownies produces a taste that is sweet, creamy, soft and melts on the tongue.</p>
+                        <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic mb-2">Burnt Cheesecake Brownies</h2>
+                        <p className="card-text font-playfair font-medium text-slate-800 md:text-md ">The combination of grilled cheese from cream cheese and chocolate brownies produces a taste that is sweet, creamy, soft and melts on the tongue.</p>
                     </div>
                 </div>
                 <div className="card mx-auto" data-aos='fade-up' data-aos-duration="1000">
                     <div className="card-body text-center w-80">
-                        <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic mb-2">Fudgy Brownies</h2>
-                        <p className="card-text font-['BadScript'] md:text-md font-medium text-slate-800 ">Brownies that have a soft, dense texture, and a sweet and crunchy chocolate taste create an interesting combination of flavors on the tongue</p>
+                        <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic mb-2">Fudgy Brownies</h2>
+                        <p className="card-text font-playfair md:text-md font-medium text-slate-800 ">Brownies that have a soft, dense texture, and a sweet and crunchy chocolate taste create an interesting combination of flavors on the tongue</p>
                     </div>
                 </div>
                 <div className="card mx-auto" data-aos='fade-up' data-aos-duration="1000">
                     <div className="card-body text-center w-80">
-                        <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic mb-2">Brownies Bites</h2>
-                        <p className="card-text font-['BadScript'] md:text-md font-medium text-slate-800 ">Fudgy brownies cut into small pieces with the same taste make brownie bites suitable for a special snack</p>
+                        <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic mb-2">Brownies Bites</h2>
+                        <p className="card-text font-playfair md:text-md font-medium text-slate-800 ">Fudgy brownies cut into small pieces with the same taste make brownie bites suitable for a special snack</p>
                     </div>
                 </div>
                 <div className="card mx-auto" data-aos='fade-up' data-aos-duration="1000">
                     <div className="card-body text-center w-80">
-                        <h2 className="card-title md:text-xl text-lg font-['BadScript'] text-orange-800 font-bold mt-4 italic mb-2">Cheesecuit</h2>
-                        <p className="card-text font-['BadScript'] md:text-md font-medium text-slate-800">Combination of cheese and biscuits that creates a crunchy sensation from the biscuits and a creamy sensation from the cheese, as well as a sweet taste from various toppings</p>
+                        <h2 className="card-title md:text-xl text-lg font-playfair text-orange-800 font-bold mt-4 italic mb-2">Cheesecuit</h2>
+                        <p className="card-text font-playfair md:text-md font-medium text-slate-800">Combination of cheese and biscuits that creates a crunchy sensation from the biscuits and a creamy sensation from the cheese, as well as a sweet taste from various toppings</p>
                     </div>
                 </div>
             </div>
@@ -238,30 +238,30 @@ const HomePage = () => {
         {/* Cheesecuit */}
         <div className="cheesecuit pt-16 mb-20" id='cheesecuit'>
             <div className="title -mb-14" data-aos='fade-left' data-aos-duration="1000">
-                <h1 className="font-['BadScript'] italic text-lg md:text-2xl text-right md:mx-20 mx-6">
+                <h1 className="font-playfair italic text-lg md:text-2xl text-right md:mx-20 mx-6">
                 You Can Enjoy Various <span className='text-orange-500'>Special Flavors!</span></h1>
             </div>
             <div className="content">
                 <div className="columns gap-1 md:gap-1 sm:columns-2 md:columns-5 [&>img:not(:first-child)]:mt-0 md:[&>img:not(:first-child)]:mt-1 md:mx-28 mx-20">
                     <div className="overflow-hidden" data-aos='zoom-in' data-aos-duration="2000">
                         <img src="/assets/coklat.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
-                        <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Chocolate</p>
+                        <p className="text-center font-playfair text-2xl md:text-3xl italic">Chocolate</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
                         <img src="/assets/oreo.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
-                        <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic ">Oreo</p>
+                        <p className="text-center font-playfair text-2xl md:text-3xl italic ">Oreo</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
                         <img src="/assets/tiramisu.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
-                        <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Tiramisu</p>
+                        <p className="text-center font-playfair text-2xl md:text-3xl italic">Tiramisu</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
                         <img src="/assets/matcha.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
-                        <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Matcha</p>
+                        <p className="text-center font-playfair text-2xl md:text-3xl italic">Matcha</p>
                     </div>
                     <div className="overflow-hidden -mt-14" data-aos='zoom-in' data-aos-duration="2000">
                         <img src="/assets/redvelvet.png" alt="" className="transition-transform duration-500 hover:scale-110"/>
-                        <p className="text-center font-['BadScript'] text-2xl md:text-3xl italic">Red Velvet</p>
+                        <p className="text-center font-playfair text-2xl md:text-3xl italic">Red Velvet</p>
                     </div>
                 </div>
             </div>
@@ -269,7 +269,7 @@ const HomePage = () => {
         {/* Testimony */}
         <div className="testimony pt-10 h-full bg-slate-50" id='testimony'>
             <div className="title" data-aos='fade-right' data-aos-duration="1000">
-                <h1 className="font-['BadScript'] italic text-2xl md:text-4xl text-left md:mx-20 mx-6">
+                <h1 className="font-playfair italic text-2xl md:text-4xl text-left md:mx-20 mx-6">
                     What They Say
                 </h1>
             </div>
@@ -331,14 +331,14 @@ const HomePage = () => {
             </div>
             <div className="arrow mx-8 md:mx-20 pb-12" data-aos='fade-right' data-aos-duration="1000">
                 <a href="https://www.instagram.com/hncheese"> <FontAwesomeIcon icon={faArrowRight} size='2x'/></a>
-                <a href="https://www.instagram.com/hncheese"><p className='mt-2 text-[12px] md:text-lg font-["BadScript"] font-extralight italic'>See More? Visit Instagram</p></a>
+                <a href="https://www.instagram.com/hncheese"><p className='mt-2 text-[12px] md:text-lg font-playfair font-extralight italic'>See More? Visit Instagram</p></a>
             </div>
         </div>
          {/* Gallery */}
          <div className="gallery mt-14 md:mt-16" id='gallery'>
             <div className="title" data-aos='fade-up' data-aos-duration="1000">
-                <h1 className="font-['BadScript'] italic text-2xl md:text-4xl text-center ">Our <span className='text-orange-500'>Gallery</span></h1>
-                <p className="mt-1 text-[14px] md:text-lg text-center font-['BadScript'] font-extralight w-64 md:w-[550px] mx-auto text-slate-500 italic">
+                <h1 className="font-playfair italic text-2xl md:text-4xl text-center ">Our <span className='text-orange-500'>Gallery</span></h1>
+                <p className="mt-1 text-[14px] md:text-lg text-center font-playfair font-extralight w-64 md:w-[550px] mx-auto text-slate-500 italic">
                 You can see our gallery here. A variety of dessert menus that will captivate your eyes and pamper your tongue.</p>
             </div>
             <div className="columns gap-5 md:gap-1 sm:columns-2 md:columns-4 [&>img:not(:first-child)]:mt-1 md:[&>img:not(:first-child)]:mt-1 mt-10" data-aos='fade-up' data-aos-duration="1000">
@@ -383,19 +383,19 @@ const HomePage = () => {
         {/* Contact */}
         <div className="contact bg-slate-50 md:pb-24 pb-16" id='contact'>
             <div className="title md:pt-20 pt-12">
-                <h1 className="font-['BadScript'] italic text-3xl md:text-4xl text-center" data-aos='fade-up' data-aos-duration="1000">Contact <span className='text-orange-500'>Us</span></h1>
+                <h1 className="font-playfair italic text-3xl md:text-4xl text-center" data-aos='fade-up' data-aos-duration="1000">Contact <span className='text-orange-500'>Us</span></h1>
             </div>
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row items-center justify-center md:gap-24 gap-5">
                     <div className="w-full md:w-1/3" data-aos='fade-right' data-aos-duration="1000">
                         <div className='mt-8'>
-                            <h1 className='font-[BadScript] italic text-xl md:text-3xl text-center md:text-left mb-4'>Get In Touch</h1>
-                            <p className="mt-1 text-[14px] md:text-lg font-['BadScript'] font-extralight text-center md:text-left w-72 mx-auto md:mx-0 md:w-[500px] text-slate-500 italic">
+                            <h1 className='fontplayfairitalic text-xl md:text-3xl text-center md:text-left mb-4'>Get In Touch</h1>
+                            <p className="mt-1 text-[14px] md:text-lg font-playfair font-extralight text-center md:text-left w-72 mx-auto md:mx-0 md:w-[500px] text-slate-500 italic">
                             If you have any questions or inquiries, please don't hesitate to contact us. We would be happy to assist you.</p>
                         </div>
                         <div className="mt-8">
-                            <h1 className='font-[BadScript] italic text-xl md:text-3xl text-center md:text-left mb-4'>Address</h1>
-                            <p className="mt-1 text-[14px] md:text-lg font-['BadScript'] font-extralight text-center md:text-left w-72 mx-auto md:mx-0 md:w-[550px] text-slate-500 italic">
+                            <h1 className='fontplayfairitalic text-xl md:text-3xl text-center md:text-left mb-4'>Address</h1>
+                            <p className="mt-1 text-[14px] md:text-lg font-playfair font-extralight text-center md:text-left w-72 mx-auto md:mx-0 md:w-[550px] text-slate-500 italic">
                             Curug Wetan Village <br />Curug District <br />Tangerang Regency - Banten 15810.</p>
                         </div>
                     </div>

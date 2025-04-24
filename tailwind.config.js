@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         badscript: ['"Bad Script"', 'cursive'],
-        inter: ['"Inter"', 'sans-serif']
+        inter: ['"Inter"', 'sans-serif'],
+        playfair: ['"Playfair"', 'serif'],
       }
     },
   },
