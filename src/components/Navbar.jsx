@@ -34,29 +34,31 @@ const Navbar = () => {
     }
   }, [lastScrollY])
   return (
-    <div className='overflow-x-hidden'>
+    <div>
       <nav className={`
-            fixed top-0 left-0 w-full z-50 
+            fixed top-0 left-0 right-0 w-full z-50 
             transition-all duration-500
             ${scroll ? 'bg-black' : 'bg-transparent'}
             ${isVisible ? 'translate-y-0' : '-translate-y-full'}
           `}
           >
-        <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <span className="self-center text-3xl font-semibold whitespace-nowrap text-white  font-['badscript'] italic">H.N <span className='text-orange-500'>Cheese</span></span>
+            <span className="self-center text-3xl font-semibold whitespace-nowrap text-white font-playfair italic">H.N <span className='text-orange-500'>Cheese</span></span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button
-              type="button"
-              className="text-white bg-orange-700 hover:bg-white hover:text-orange-700 font-bold focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2 text-center"
-            >
-              Order Now
-            </button>
+            <a href="https://instagram.com/hncheese" target="_blank">
+              <button
+                type="button"
+                className="text-white bg-orange-700 hover:bg-white hover:text-orange-700 font-bold focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2 text-center"
+              >
+                Order Now
+              </button>
+            </a>
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-300 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-300 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar"
               aria-expanded={isOpen}
             >
