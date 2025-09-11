@@ -389,12 +389,12 @@ const HomePage = () => {
                 <div className="flex flex-col md:flex-row items-center justify-center md:gap-24 gap-5">
                     <div className="w-full md:w-1/3" data-aos='fade-right' data-aos-duration="1000">
                         <div className='mt-8'>
-                            <h1 className='fontplayfairitalic text-xl md:text-3xl text-center md:text-left mb-4'>Get In Touch</h1>
+                            <h1 className='font-playfair italic text-xl md:text-3xl text-center md:text-left mb-4'>Get In Touch</h1>
                             <p className="mt-1 text-[14px] md:text-lg font-playfair font-extralight text-center md:text-left w-72 mx-auto md:mx-0 md:w-[500px] text-slate-500 italic">
                             If you have any questions or inquiries, please don't hesitate to contact us. We would be happy to assist you.</p>
                         </div>
                         <div className="mt-8">
-                            <h1 className='fontplayfairitalic text-xl md:text-3xl text-center md:text-left mb-4'>Address</h1>
+                            <h1 className='font-playfair italic text-xl md:text-3xl text-center md:text-left mb-4'>Address</h1>
                             <p className="mt-1 text-[14px] md:text-lg font-playfair font-extralight text-center md:text-left w-72 mx-auto md:mx-0 md:w-[550px] text-slate-500 italic">
                             Curug Wetan Village <br />Curug District <br />Tangerang Regency - Banten 15810.</p>
                         </div>

@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className={`
-            fixed top-0 left-0 right-0 w-full z-50 
+            fixed top-0 left-0 right-0 max-w-100 z-50 
             transition-all duration-500
             ${scroll ? 'bg-black' : 'bg-transparent'}
             ${isVisible ? 'translate-y-0' : '-translate-y-full'}
